@@ -1,3 +1,8 @@
+---
+description: Safety & Git Governance
+activation: always-on
+---
+
 # Safety & Git Governance (Rules)
 
 ## 1. Safety & Git Governance

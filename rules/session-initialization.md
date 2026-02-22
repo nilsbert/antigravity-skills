@@ -1,3 +1,8 @@
+---
+description: Session Orientation & Initialization
+activation: model-decision
+---
+
 # Session Initialization (Rules)
 
 ## 5. Session Initialization (The Amy Kickstart)

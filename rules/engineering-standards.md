@@ -1,3 +1,8 @@
+---
+description: Engineering & Design Standards
+activation: model-decision
+---
+
 # Engineering & Design Standards (Rules)
 
 ## 4. Engineering & Design Standards

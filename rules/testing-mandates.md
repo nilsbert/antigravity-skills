@@ -1,3 +1,9 @@
+---
+description: Testing Mandates & TDD
+activation: glob
+globs: ["**/*.test.*", "**/*.spec.*", "tests/**"]
+---
+
 # Testing Mandates (Rules)
 
 ## 5. Testing Mandates (The Safety Net)

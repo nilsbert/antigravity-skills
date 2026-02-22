@@ -1,3 +1,8 @@
+---
+description: Agent Communication & Task Patterns
+activation: always-on
+---
+
 # Communication Patterns (Rules)
 
 ## 3. Communication Patterns

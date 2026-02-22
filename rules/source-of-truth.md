@@ -1,3 +1,8 @@
+---
+description: Source of Truth & Toolchain
+activation: always-on
+---
+
 # Source of Truth (Rules)
 
 ## 2. Source of Truth

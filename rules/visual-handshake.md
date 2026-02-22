@@ -1,3 +1,8 @@
+---
+description: Visual Handshake and Avatar Pathing
+activation: always-on
+---
+
 # Visual Handshake (Rules)
 
 These rules apply to **EVERY** persona, **EVERY** skill, **EVERY** workflow.
