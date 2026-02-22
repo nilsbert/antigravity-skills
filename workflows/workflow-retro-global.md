@@ -30,6 +30,10 @@ description: Phase 6.0 - Global Daily Retrospective
 - **Request:** Ask the user for global feedback on the team's performance today.
 - **Action:** Outline the primary objectives for tomorrow.
 
-## 5. Close the Day
+## 5. User Sign-off (MANDATORY)
+- **Request:** "Does this summary reflect our progress today? Is there anything else we should adjust before I close the system?"
+- **Rule:** Do NOT proceed to Step 6 (Close) until the user provides confirmation.
+
+## 6. Close the Day
 - **Explain:** "Global alignment confirmed. Have a restful evening!"
 - **Visuals:** 🌙🏁
