@@ -1,21 +1,4 @@
-#  Global Agent Rules
-
-These rules apply to **EVERY** persona,  **EVERY** skill, **EVERY** workflow. They are the core "Laws of the Monster" that ensure safety, quality, and consistency.
-
-## 0. The Visual Handshake (MANDATORY)
-*   **Avatar Display**: When adopting a persona, **ALWAYS** display the persona's avatar image at the very start of your response (before any text).
-*   **Format (Chat)**: `![PersonaName](.agent/personas/[persona-dir]/[avatar-file].png)` (Always use paths relative to the project root in chat messages).
-*   **Format (Docs)**: `![PersonaName](../path/to/avatar.png)` (Use relative paths within documentation files).
-*   **Strictness**: A response without a valid avatar is a **failure**.
-
-## 1. Safety & Git Governance
-*   **Mandatory Staging Gate**: No code Shall be pushed to the `production` environment (main branch) without prior successful verification in a local Docker environment or a dedicated staging environment.
-*   **Explicit Production Approval**: You MUST obtain explicit user permission for EVERY production deployment. A general "Push" or "Fix it" command is NOT enough for production. After presenting Staging results, you must ask: "May I now deploy this to production?"
-*   **Wait for Approval**: After proposing a code change, test plan, or architectural decision, you **MUST** wait for user confirmation before proceeding to file creation/modification.
-
-## 2. Source of Truth
-*   **Toolchain Manifest**: Always check `docs/admin/toolchain-manifest.md` for project-specific scripts (Build, Lint, Test) before running commands.
-*   **Project Lifecycle**: Follow the active phase defined in `docs/admin/project-lifecycle.md`.
+# Communication Patterns (Rules)
 
 ## 3. Communication Patterns
 *   **The Amy Orientation**: If the user seems lost or has a cognitive load issue, defer to **Amy** (Psychological Safety) for orientation.
@@ -61,20 +44,3 @@ These rules apply to **EVERY** persona,  **EVERY** skill, **EVERY** workflow. Th
 *   **Prioritize CLI & Plugins**: When communicating with or updating external platforms like **GitHub**, **Jira**, or **Miro**, always prioritize **CLI tools** (e.g., `gh`) and **MCP plugins** over the browser tool.
 *   **Fallback**: Only use the browser tool if a CLI or plugin is unavailable or fails to perform the specific action.
 *   **Reasoning**: CLI and plugins provide higher reliability, speed, and better integration with the agent's environment.
-
-## 4. Engineering & Design Standards
-*   **4.1. Mandatory Jony Vision (UI/UX Gate)**: For any feature involving a new UI page, component, or visual transition, **Jony** (UI/UX) **MUST** generate a high-quality image mockup (`generate_image`) during the Refinement phase. Implementation cannot start until the user approves the visual design.
-*   **Absolute Paths**: Always use absolute paths for **internal system tools** and file operations.
-*   **Relative Paths (Documentation)**: Always use **relative paths** for links and images within documentation (`docs/`, `.md` files) to ensure compatibility across multiple devices and environments.
-*   **Persona Organization**: Every persona MUST have its own dedicated subfolder (e.g., `docs/product/personas/nils/`). This folder must contain at least the `persona.md` and an `avatar.png`.
-*   **Persona Visual Standard**: All persona avatars MUST be generated in a **"portrait, Pixar 3D comic style"** to ensure a premium, consistent visual identity across the project.
-*   **DDD by Default**: When implementing logic, default to Martin's DDD patterns (Entities/Value Objects) unless the user explicitly requests a "Fast/Simple" path.
-
-## 5. Testing Mandates (The Safety Net)
-*   **TDD First**: You must write failing tests (Red) before writing implementation code (Green). This applies to all Domain logic and Services.
-*   **Run All Tests**: Before requesting a merge or release, you must run the full test suite (`pytest` + `npm test`) to ensure no regressions.
-*   **Mandatory Local Docker Verification**: For any backend or database-related change, you MUST build and verify the change in the local Docker stack (`docker-compose.build.yml`) before deployment.
-*   **Coverage**: New features must include unit tests. Legacy code must be covered when touched.
-*   **E2E Verification**: Browser-based features must be verified with E2E tests (`workflow-test-e2e`) covering all critical paths.
-## 5. Session Initialization (The Amy Kickstart)
-*   **Mandatory Orientation**: Every new session or context switch **MUST** start with a call to the `context-recovery` skill (Amy). This ensures the agent is aligned with the project's current state, rules, and WIP limits.
