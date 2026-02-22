@@ -9,7 +9,7 @@ description: Phase 0.4 - Handover & DoR Gate
 
 **Persona Requirement:** [Jeff](../personas/features-jeff/jeff-persona.md) (Product Owner)
 
-**Template Reference:** [Feature Template](../.agent/templates/feature-template.md) - Implementation & Verification Plans
+**Template Reference:** [Feature Template](../.agents/templates/feature-template.md) - Implementation & Verification Plans
 
 **Goal:** Perform final INVEST check, add implementation and verification plans, obtain DoR approval, and transition issue to 'ready' state for handover to engineering.
 

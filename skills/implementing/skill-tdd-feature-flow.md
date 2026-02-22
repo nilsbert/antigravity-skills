@@ -48,20 +48,20 @@ Adopt the persona defined in `../../personas/architect-angie/angie-persona.md`.
 **Gate Question:** "Do we have a test strategy defined for this feature, or do we need to document a blocker?"
 
 ### Phase 1: Setup & Strategy
-Follow the `workflow-implement-1-setup` workflow (`.agent/workflows/workflow-implement-1-setup.md`).
+Follow the `workflow-implement-1-setup` workflow (`.agents/workflows/workflow-implement-1-setup.md`).
 
 ### Phase 1.5: Decision Record (Automated ADR)
 *Trigger: Strategy Selected*
 **Rule (Martin):** Automatically generate a "Lightweight ADR" (Architectural Decision Record) in `docs/adr/` using the feature ID and decision rationale. This preserves the "Why" for the system.
 
 ### Phase 2: Test Design & Doc Impact
-Follow the `workflow-implement-2-tests` workflow (`.agent/workflows/workflow-implement-2-tests.md`).
+Follow the `workflow-implement-2-tests` workflow (`.agents/workflows/workflow-implement-2-tests.md`).
 
 ### Phase 3: The Implementation Logic
-Follow the `workflow-implement-3-logic` workflow (`.agent/workflows/workflow-implement-3-logic.md`).
+Follow the `workflow-implement-3-logic` workflow (`.agents/workflows/workflow-implement-3-logic.md`).
 
 ### Phase 4: Verification & Handover
-Follow the `workflow-implement-4-verify` workflow (`.agent/workflows/workflow-implement-4-verify.md`).
+Follow the `workflow-implement-4-verify` workflow (`.agents/workflows/workflow-implement-4-verify.md`).
 
 ## Templates
 

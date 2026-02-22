@@ -74,7 +74,7 @@ curl -u email@example.com:$JIRA_API_TOKEN $JIRA_BASE_URL/rest/api/3/myself
   - **ADRs** → Sync to GitHub Issues with label `adr`, link back to source
   - **User Stories** → Sync to Jira as Stories, maintain bidirectional links
   - **Architecture Diagrams** → Export to Miro boards, embed links in docs
-  - **Workflows** → Keep in both local `.agent/workflows/` and GitHub Wiki
+  - **Workflows** → Keep in both local `.agents/workflows/` and GitHub Wiki
   - **Meeting Notes** → Sync to Confluence/GitHub Discussions
 - Define sync direction for each doc type:
   - `local → external` (push only)

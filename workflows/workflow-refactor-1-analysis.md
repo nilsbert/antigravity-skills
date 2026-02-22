@@ -55,7 +55,7 @@ description: Phase 0.5 - Refactoring Analysis & Architectural Review
 - **Explain:** "Gene here. I'll formalize this agreement into our Single Source of Truth."
 - **Action:** Check if a tracking issue already exists.
 - **Action:** Create a new GitHub Issue (if none exists).
-    - **Action:** Read the template content: `view_file .agent/templates/improvement-suggestion.md`
+    - **Action:** Read the template content: `view_file .agents/templates/improvement-suggestion.md`
     - **Title:** `refactor: [Short Title]`
     - **Labels:** `technical-debt`, `refactoring`
     - **Body:** Populate with content from `../templates/improvement-suggestion.md`.

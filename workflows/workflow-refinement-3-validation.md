@@ -9,7 +9,7 @@ description: Phase 0.3 - Validation & Sad Path Analysis
 
 **Persona Requirement:** [Jeff](../personas/features-jeff/jeff-persona.md) (Product Owner)
 
-**Template Reference:** [Feature Template](../.agent/templates/feature-template.md) - BDD Scenarios & E2E Tests
+**Template Reference:** [Feature Template](../.agents/templates/feature-template.md) - BDD Scenarios & E2E Tests
 
 **Goal:** Expand BDD scenarios to minimum 20, define E2E test scenarios, validate NFRs, and analyze sad paths comprehensively.
 

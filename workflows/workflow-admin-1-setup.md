@@ -17,7 +17,7 @@ description: Phase 0 - Project & Toolchain Setup
 2. **Manifest Initialization**
    - **Action:** Read [Global Rules](../rules/global-rules.md).
    - **Check:** Does `docs/admin/toolchain-manifest.md` exist?
-   - **If NO:** Copy from `.agent/templates/project-manifest.md` to `docs/admin/toolchain-manifest.md`.
+   - **If NO:** Copy from `.agents/templates/project-manifest.md` to `docs/admin/toolchain-manifest.md`.
    - **If YES:** Read the existing file to check for empty fields.
    - **Explain:** "I am initializing the Project Toolchain Manifest from our template to `docs/admin/toolchain-manifest.md`."
 

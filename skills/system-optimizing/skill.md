@@ -1,6 +1,6 @@
 ---
 name: system-optimizer
-description: Meta-skill for optimizing the Agent System itself (.agent/* files).
+description: Meta-skill for optimizing the Agent System itself (.agents/* files).
 triggers:
   - "optimize system"
   - "sys-opt"
@@ -9,7 +9,7 @@ triggers:
   - "fix process"
   - "Diana"
 context:
-  - ".agent/**/*"
+  - ".agents/**/*"
   - ".gemini/antigravity/brain/*/task.md"
   - "../../personas/coach-diana/diana-persona.md"
   - "../rules/global-rules.md"

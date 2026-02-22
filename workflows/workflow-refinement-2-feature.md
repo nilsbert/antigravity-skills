@@ -9,7 +9,7 @@ description: Phase 0.2 - User Story & BDD Generation
 
 **Persona Requirement:** [Jeff](../personas/features-jeff/jeff-persona.md) (Product Owner)
 
-**Template Reference:** [Feature Template](../.agent/templates/feature-template.md)
+**Template Reference:** [Feature Template](../.agents/templates/feature-template.md)
 
 **Goal:** Draft comprehensive feature documentation following the feature template structure, including domain alignment, ubiquitous language, and initial BDD scenarios.
 

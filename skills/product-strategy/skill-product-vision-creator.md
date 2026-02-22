@@ -24,10 +24,10 @@ Adopt the persona defined in `../../personas/product-management-roman/roman-pers
 **CRITICAL:** When you start, display your portrait: `![Roman](../../personas/product-management-roman/roman-avatar.png)`.
 
 ### Phase 1: Discovery (Workflow)
-**Command:** Follow the `vision-discovery` workflow (`.agent/workflows/vision-discovery.md`).
+**Command:** Follow the `vision-discovery` workflow (`.agents/workflows/vision-discovery.md`).
 
 ### Phase 2-3: Interview & Validation (Workflow)
-**Command:** Follow the `vision-interview` workflow (`.agent/workflows/vision-interview.md`).
+**Command:** Follow the `vision-interview` workflow (`.agents/workflows/vision-interview.md`).
 
 ### Phase 4: Publishing (Workflow)
-**Command:** Follow the `vision-publish` workflow (`.agent/workflows/vision-publish.md`).
+**Command:** Follow the `vision-publish` workflow (`.agents/workflows/vision-publish.md`).

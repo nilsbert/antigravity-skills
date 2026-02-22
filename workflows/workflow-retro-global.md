@@ -24,7 +24,7 @@ description: Phase 6.0 - Global Daily Retrospective
     - Are there recurring problems across different features?
     - Do we need to update `global-rules.md`?
     - Are our personas correctly aligned with the project vision?
-- **Action:** Execute `multi_replace_file_content` on `.agent/rules/global-rules.md` if needed.
+- **Action:** Execute `multi_replace_file_content` on `.agents/rules/global-rules.md` if needed.
 
 ## 4. Discussion & Planning
 - **Request:** Ask the user for global feedback on the team's performance today.

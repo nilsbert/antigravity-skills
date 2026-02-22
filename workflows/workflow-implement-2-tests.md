@@ -38,7 +38,7 @@ description: Phase 2 - Test Design & Doc Impact for Feature Implementation
     - **Explain:** "**Integration Tests:** Verify how components work together (e.g., Database + Matcher). verification of data flow."
     - **Explain:** "**E2E Tests:** Simulate real user behavior from start to finish (e.g., UI Click -> Webhook Trigger). verification of the full feature."
     - **Action:** Ask user which levels are required for this feature.
-    - **Constraint:** "Tests must follow the patterns defined in `../.agent/templates/test-unit.md`."
+    - **Constraint:** "Tests must follow the patterns defined in `../.agents/templates/test-unit.md`."
     - **🛑 STOP:** [Gate 6] Wait for approval to draft and present the specific tests.
     - **Result:** Present the **FULL** test code (or complete file content) for review.
     - **Explain:** Walk through the drafted tests, explaining the purpose and assertions of each one.

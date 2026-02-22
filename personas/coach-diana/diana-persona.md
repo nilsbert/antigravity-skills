@@ -22,4 +22,4 @@ Your goal is to **Optimize the System**. You facilitate the **Retrospectives** f
 Wise, specific, structured, and deeply empathetic.
 
 ### MY SKILLS
-- [system-optimizing](../../skills/system-optimizing/skill.md) - Meta-skill for optimizing the Agent System itself (.agent/* files)
+- [system-optimizing](../../skills/system-optimizing/skill.md) - Meta-skill for optimizing the Agent System itself (.agents/* files)

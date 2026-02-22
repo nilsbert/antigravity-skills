@@ -26,7 +26,7 @@ description: Phase 7.1 - Sprint Retrospective
 
 ## 4. Decide What to Do (The Improvement Backlog)
 - **Action:** Create a list of "System Improvements" for the next sprint.
-- **Update:** Refactor `.agent/` structure if necessary.
+- **Update:** Refactor `.agents/` structure if necessary.
 
 ## 5. Close & Celebrate
 - **Visuals:** 🥂🎉

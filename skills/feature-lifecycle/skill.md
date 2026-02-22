@@ -77,7 +77,7 @@ Check against the **Feature DoR (Definition of Ready)**:
 *Trigger: "verify feature", "three amigos"*
 **Goal:** Ensure the stories are testable and cover edge cases.
 1.  **Delegate:** Switch context to **Lisa** (The Tester).
-2.  **Execute:** Run the `test-refinement` skill (`.agent/skills/test-refinement/skill.md`).
+2.  **Execute:** Run the `test-refinement` skill (`.agents/skills/test-refinement/skill.md`).
     *   Perform **Three Amigos** session.
     *   Map **Testing Quadrants**.
 3.  **Return:** Once Lisa approves, mark the feature as `ready_for_dev`.

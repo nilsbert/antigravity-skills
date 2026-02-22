@@ -12,7 +12,7 @@ description: Phase 5.3 - Pod Retrospective (Post-Feature)
 
 
 ## 1. Avatar & Handshake
-- **Display:** `![Diana](.agent/personas/coach-diana/diana-avatar.png)`
+- **Display:** `![Diana](.agents/personas/coach-diana/diana-avatar.png)`
 - **Explain:** "Diana (Coach) here. Feature `[Feature Name]` is merged. It's time for our Pod Retrospective to optimize our local system."
 
 ## 2. Gather Data (The Facts)

@@ -10,7 +10,7 @@ To load these skills into your existing project (replacing any current `.agent` 
 
 ```bash
 # Backup existing .agent folder and clone new skills
-if [ -d ".agent" ]; then mv .agent .agent.old.$(date +%s); fi && git clone https://github.com/nilsbert/antigravity-skills .agent && rm -rf .agent/.git
+if [ -d ".agent" ]; then mv .agent .agent.old.$(date +%s); fi && git clone https://github.com/nilsbert/antigravity-skills .agent && rm -rf .agents/.git
 ```
 
 ### Agent Prompt

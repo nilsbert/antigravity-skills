@@ -13,7 +13,7 @@ context:
   - "/docs/features/*.md"
   - "/docs/admin/toolchain-manifest.md"
   - "/docs/culture/learning-log.md"
-  - ".agent/personas/*.md"
+  - ".agents/personas/*.md"
   - "**/docs/admin/project-lifecycle.md"
   - "../rules/global-rules.md"
 ---
