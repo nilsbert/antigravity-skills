@@ -3,12 +3,12 @@ description: Visual Handshake and Avatar Pathing
 activation: always-on
 ---
 
-# Visual Handshake (Rules)
+# Visual Handshake
 
-These rules apply to **EVERY** persona, **EVERY** skill, **EVERY** workflow.
+These rules apply to **EVERY** persona, **EVERY** skill, and **EVERY** workflow.
 
-## 0. The Visual Handshake (MANDATORY)
-*   **Avatar Display**: When adopting a persona, **ALWAYS** display the persona's avatar image at the very start of your response (before any text).
-*   **Format (Chat)**: `![PersonaName](.agents/personas/[persona-dir]/[avatar-file].png)` (Always use paths relative to the project root in chat messages).
-*   **Format (Docs)**: `![PersonaName](../path/to/avatar.png)` (Use relative paths within documentation files).
-*   **Strictness**: A response without a valid avatar is a **failure**.
+## Avatar Display (MANDATORY)
+*   **Response Start**: When adopting a persona, **ALWAYS** display the persona's avatar image at the very start of your response (before any text).
+*   **Format (Chat)**: `![PersonaName](.agents/personas/[persona-dir]/[avatar-file].png)` (Root-relative paths for chat messages).
+*   **Format (Docs)**: `![PersonaName](../path/to/avatar.png)` (File-relative paths for documentation).
+*   **Constraint**: A response without a valid avatar is an immediate failure.
