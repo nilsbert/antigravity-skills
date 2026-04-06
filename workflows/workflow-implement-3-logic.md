@@ -1,6 +1,7 @@
 ---
 description: Phase 3 - Implementation Logic (Red/Green)
 ---
+
 # Workflow: Code Implementation (Step 3)
 
 > [!IMPORTANT]
@@ -21,8 +22,8 @@ description: Phase 3 - Implementation Logic (Red/Green)
 
 2. **The Skeleton**
    - **Explain:** "I will define the classes and method signatures (The API surface/Contract) first to ensure architectural alignment."
-   - **🛑 STOP:** [Gate 8] Wait for approval to code and present the skeleton.
-   - **Execute:** Create skeleton.
+   - **🛑 STOP:** [Gate 8] Wait for approval to code and present the skeletons for all planned tests.
+   - **Execute:** Create skeletons.
    - **Result:** Present the skeleton code.
    - **🛑 STOP:** Wait for user approval of the structure.
 
