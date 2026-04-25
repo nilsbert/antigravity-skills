@@ -20,3 +20,6 @@ activation: model-decision
 
 ## Domain Driven Design
 *   **Martins's DDD**: Default to DDD patterns (Entities/Value Objects) for logic unless a "Fast/Simple" path is explicitly requested.
+
+## Technical Environment
+*   **Python Compatibility**: The current environment uses **Python 3.9**. Do NOT use Python 3.10+ syntax like the pipe operator for unions (`int | None`). Always use `typing.Optional` or `typing.Union`.
