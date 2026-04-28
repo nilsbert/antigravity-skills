@@ -16,6 +16,8 @@ description: Phase 3.2.1 - Imports & Dependency Audit
 2. **Import Integrity**
    - **Check:** Zero unresolvable paths.
    - **Check:** No cross-submodule relative imports.
+   - **Check:** Run `npm run depcruise` in `dashboard/ui` (Frontend architecture).
+   - **Check:** Run `.venv/bin/lint-imports` in root (Backend architecture).
 
 3. **Continuous Flow**
    - **Rule:** If no orphans or unresolvable imports are found, **PROCEED IMMEDIATELY** to `/workflow-implement-3.2.2-audit-dry`.
